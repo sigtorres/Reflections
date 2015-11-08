@@ -3,3 +3,11 @@ What happens when you initialize a repository? Why do you need to do it?
 -it creates a hidden git file where it will track all the changes in the files
 you add to the repository. You have to do this so you can start keeping track
 of changes with git!
+
+
+How is the staging area different from the working directory and the repository?
+ What value do you think it offers?
+ -the staging area is an intermediate "directory" where files from the working
+ directory that are going to be added to the repository are shown before they
+ actually are added. This is useful to create logical commits when you have
+ more than one change that have to go on separate commits (per logical change)
