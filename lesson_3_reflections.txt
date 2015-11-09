@@ -8,3 +8,6 @@ automatically stay up-to-date with your remote repository?
 -because you may have some changes that may consist of several commits and you
 may need more time to organize them before pushing or pulling to and form
 github
+
+
+added some stuff to test SSH key thing
