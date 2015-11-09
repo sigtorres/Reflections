@@ -11,3 +11,4 @@ github
 
 
 added some stuff to test SSH key thing
+second test for SSH key authentication
