@@ -11,3 +11,32 @@ How is the staging area different from the working directory and the repository?
  directory that are going to be added to the repository are shown before they
  actually are added. This is useful to create logical commits when you have
  more than one change that have to go on separate commits (per logical change)
+
+
+ How can you use the staging area to make sure you have one commit per logical
+  change?
+-by logging the contents of the staging are with git status and making sure all
+ the staged changes are in fact one logical change.
+
+ What are some situations when branches would be helpful in keeping your
+  history organized? How would branches help?
+  -when adding experimental features wile keeping the master version alive
+  -a branch would allow you to experiment with the live code without
+  affecting it.
+
+  How do the diagrams help you visualize the branch structure?
+  -it makes it clear that git has a non-linera structure and some commits may
+  not be reachable from git log on any other branches.
+
+  What is the result of merging two branches together? Why do we represent it
+  in the diagram the way we do?
+-Merging two branches together combines their respective changes ("commits ")
+IT is shown as such in the diagram to emphasize that both chains of commits
+are now accessible by the new master.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+ manually?
+-pros, auto, manual: no need to look over easy obvious changes, make sure you
+commit only intended changes (more appropriate)
+cons, auto,manual: may accidentally merge unintended ambiguous changes, will
+take a very long time to go over all changes to avoid possibility of ambiguity.
